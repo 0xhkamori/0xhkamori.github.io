@@ -1,0 +1,13 @@
+.card-hover {
+    transition: all 0.5s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+}
+
+.card-hover:hover::after {
+    opacity: 1;
+}
